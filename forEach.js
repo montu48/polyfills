@@ -2,7 +2,6 @@
 
 
 Array.prototype.myforEach = function(cb,thisArg){
-    console.log(thisArg)
     if(typeof cb != 'function'){
         throw new TypeError(cb + ' is not a function')
     }
